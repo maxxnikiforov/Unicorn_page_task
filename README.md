@@ -8,6 +8,8 @@ SCSS
 
 [DEMO link](https://maxxnikiforov.github.io/Unicorn_page_task/)
 
+Layout - https://www.figma.com/file/rg3v1MgQALTbJPKLhly2A1/UnicornTest?node-id=2%3A6
+
 Local development
 
 Dependencies
