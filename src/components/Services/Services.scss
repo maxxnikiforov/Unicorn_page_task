@@ -1,0 +1,16 @@
+@import '../../_utils.scss';
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px;
+  padding: 0 8px;
+
+  @include onTablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include onDesktop {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

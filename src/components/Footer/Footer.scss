@@ -1,0 +1,176 @@
+@import '../../_utils.scss';
+
+.footer {
+  background-color: $backgroundDarkGrey;
+  padding: 24px;
+
+  @include onTablet {
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    column-gap: 20px;
+    padding: 32px;
+  }
+
+  @include onDesktop {
+    grid-template-columns: repeat(12 , 1fr);
+    padding: 56px;
+  }
+
+  &__logo {
+    font-size: 44px;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+
+    @include onTablet {
+      grid-column: 2 / 3;
+    }
+  }
+
+  &__links {
+    margin-bottom: 36px;
+
+    @include onTablet {
+      grid-column: 4 / 6;
+    }
+
+    @include onDesktop {
+      grid-column: 5 / 7;
+    }
+
+    &-title {
+      color: $textLightGreen;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  &__contacts {
+
+    @include onTablet {
+      grid-column: 6 / 8;
+    }
+
+    @include onDesktop {
+      grid-column: 8 / 11;
+    }
+
+    &-title {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+      color: $textLightGreen;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    
+    &-text {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__whatsAppLink {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $textLightGreen;
+
+      .footer__whatsAppLink-img {
+        background-color: $textLightGreen;
+      }
+    }
+
+    &-img {
+      display: inline-block;
+      background-image: url(../../bg-imgs/whatsapp.png);
+      background-size: contain;
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      transition: all 0.3s;
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+
+    @include onTablet {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      grid-column: 8 / 9;
+    }
+
+    @include onDesktop {
+      grid-column: 11 / 12;
+      align-items: flex-end;
+    }
+
+    &-link {
+      margin-right: 24px;
+
+      @include onTablet {
+        margin-right: 0;
+        margin-bottom: 24px;
+      }
+
+      &-box {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        background-color: #707070;
+        
+        transition: background-color 0.3s;
+        
+        &:hover {
+          background-color: $textLightGreen;
+        }
+      }
+
+      &-insta {
+        background-image: url(../../bg-imgs/insta.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      &-ball {
+        background-image: url(../../bg-imgs/ball.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      &-twit {
+        background-image: url(../../bg-imgs/twit.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      &-youtube {
+        background-image: url(../../bg-imgs/youtube.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
