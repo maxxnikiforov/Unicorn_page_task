@@ -1,0 +1,83 @@
+@import '../../_utils.scss';
+
+.service {
+  height: fit-content;
+  background-color: #F4F4F4;
+  color: $textViolet;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $backgroundViolet;
+
+    .service__subtitle,
+    .service__text,
+    .service__cashback-text {
+      color: #fff;
+    }
+  }
+
+  &__logo {
+    width: 88px;
+    height: 82px;
+    margin-bottom: 16px;
+  }
+
+  &__price {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  &__type {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    color: $textColor;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    transition: all 0.3s;
+  }
+
+  &__text {
+    color: $textColor;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    transition: all 0.3s;
+  }
+
+  &__cashback {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+    &-text {
+      font-size: 16px;
+      font-weight: 700;
+      color: #000;
+      margin-bottom: 32px;
+      transition: all 0.3s;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    border-color: transparent;
+    background-color: $textViolet;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
