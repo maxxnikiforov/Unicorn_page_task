@@ -56,6 +56,11 @@
     line-height: 24px;
     font-weight: 600;
     margin-bottom: 8px;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $textLightGreen;
+    }
   }
 
   &__contacts {
