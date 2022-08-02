@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.60747656.chunk.css",
+    "main.css": "./static/css/main.c34832cf.chunk.css",
     "main.js": "./static/js/main.70b7ea99.chunk.js",
     "main.js.map": "./static/js/main.70b7ea99.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.355d4a7f.js",
@@ -8,7 +8,7 @@
     "static/js/2.c698034a.chunk.js": "./static/js/2.c698034a.chunk.js",
     "static/js/2.c698034a.chunk.js.map": "./static/js/2.c698034a.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.60747656.chunk.css.map": "./static/css/main.60747656.chunk.css.map",
+    "static/css/main.c34832cf.chunk.css.map": "./static/css/main.c34832cf.chunk.css.map",
     "static/js/2.c698034a.chunk.js.LICENSE.txt": "./static/js/2.c698034a.chunk.js.LICENSE.txt",
     "static/media/App.scss": "./static/media/HKGrotesk-SemiBold.50deb088.otf",
     "static/media/Footer.scss": "./static/media/whatsapp.947fc1ba.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.355d4a7f.js",
     "static/js/2.c698034a.chunk.js",
-    "static/css/main.60747656.chunk.css",
+    "static/css/main.c34832cf.chunk.css",
     "static/js/main.70b7ea99.chunk.js"
   ]
 }
